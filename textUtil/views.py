@@ -1,26 +1,3 @@
-# from django.http import HttpResponse
-#
-# def index(request):
-#     return HttpResponse('''<h1>Home</h1> <a href="about"><input type="button" value="Forward"></a>''')
-#
-# def AboutPage(request):
-#     return HttpResponse('''<h1>About Page</h1>     <a href="/"><input type="button" value="Back"></a>
-# ''')
-#
-# def Services(request):
-#     return HttpResponse('''<h1>Services</h1>     <a href="/"><input type="button" value="Back"></a>
-#     ''')
-#
-# def price(request):
-#     return HttpResponse('''<h1>Price</h1>     <a href="/"><input type="button" value="Back"></a>
-#     ''')
-#
-#
-# def contact(request):
-#     return HttpResponse('''<h1>Contact US</h1>     <a href="/"><input type="button" value="Back"></a>
-#     ''')
-
-
 from django.http import HttpResponse
 from django.shortcuts import render
 
